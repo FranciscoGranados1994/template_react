@@ -37,6 +37,3 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run esLint
         run: npm run lint
-
-      - name: Run prettier
-        run:  npm run prettier 
