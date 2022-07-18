@@ -55,4 +55,4 @@ jobs:
       - name: Install the Lighthouse CI CLI.
         run: npm install -g @lhci/cli
       - name: Run 
-        run: lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
+        run: lhci autorun --config=./lighthouserc-ci.js || echo "LHCI failed!"
